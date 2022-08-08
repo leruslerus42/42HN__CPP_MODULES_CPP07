@@ -6,20 +6,19 @@
 #    By: rrajaobe <rrajaobe@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/01 02:13:27 by rrajaobe          #+#    #+#              #
-#    Updated: 2022/08/05 01:25:18 by rrajaobe         ###   ########.fr        #
+#    Updated: 2022/08/08 00:23:48 by rrajaobe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
 
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+FLAGS = -Wall -Wextra -Werror -std=c++98
 
 SELF_WRN = -Wno-self-assign-field
 
 NAME = 	array
 
-SRC = 	main.cpp \
-		./classes/*.cpp
+SRC = 	main.cpp 
 	
 OBJ = $(SRC: .c=.o)
 

@@ -6,13 +6,13 @@
 #    By: rrajaobe <rrajaobe@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/01 02:13:27 by rrajaobe          #+#    #+#              #
-#    Updated: 2022/08/04 12:00:29 by rrajaobe         ###   ########.fr        #
+#    Updated: 2022/08/07 23:46:53 by rrajaobe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
 
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+FLAGS = -Wall -Wextra -Werror -std=c++98
 
 SELF_WRN = -Wno-self-assign-field
 
